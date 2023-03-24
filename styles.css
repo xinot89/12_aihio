@@ -28,9 +28,10 @@ body {
     font-weight: bold;
     font-size: larger;
 }
-/* Allaoleva rajaa karusellikuvan leveyden suurilla leveyksillä jotta kuvasuhde pysyy järkevänä.*/
+/* Allaoleva rajaa karusellikuvan leveyden 1200px+ leveyksillä jotta kuvasuhde pysyy järkevänä.
+Toimii myös karusellikuvan pienennykseen pitäen kuvasuhteen samana.*/
 #carouselcol {
-    max-width: 70em;
+    max-width: 50em;
 }
 /* Allaoleva asettaa karusellin korkeuden*/
 .carousel-item {
@@ -43,7 +44,7 @@ footer {
     text-align: center;
 }
 footer::after {
-    content: "Toni Pohjanheimo - Verkkosivujen kehittäminen";
+    content: "Toni Pohjanheimo - Verkkosivujen kehittäminen - Viimeisin muutos: 24.3.2023";
 }
 /*Etusivujen thumbnailien koon kohtuullistaminen*/
 .img-thumbnail {
