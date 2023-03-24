@@ -7,8 +7,9 @@ table, th, td {
     border: 1px solid;
     border-collapse: collapse;
 }
-.navbar {
-    background-color: rgb(172, 171, 248);
+#logo {
+    width: 4em;
+    height: auto;
 }
 /* Tietoja meistä -sivun avatarit.*/
 .avatars {
