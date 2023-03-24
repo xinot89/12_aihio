@@ -2,13 +2,14 @@
 body {
     background-color: rgb(172, 171, 248);
     }
+/*em3.html taulukolle rajat*/
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
 .navbar {
     background-color: rgb(172, 171, 248);
 }
-/*.row {
-    position: static;
-}
-*/
 /* Tietoja meistä -sivun avatarit.*/
 .avatars {
     max-width: 6em;
@@ -44,7 +45,7 @@ footer {
     text-align: center;
 }
 footer::after {
-    content: "Toni Pohjanheimo - Verkkosivujen kehittäminen - Viimeisin muutos: 24.3.2023";
+    content: "Toni Pohjanheimo - Verkkosivujen kehittäminen";
 }
 /*Etusivujen thumbnailien koon kohtuullistaminen*/
 .img-thumbnail {
