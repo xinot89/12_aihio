@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjoitus 10B - Taulukot</title>
+    <link rel="stylesheet" href="styletable.css">
+    <script src="jquery-3.6.4.min.js"></script>
+    <script> 
+        $(function(){
+          $("#includedContent").load("nav.html"); 
+        });
+        </script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="includedContent">
+        <a href="index.html">Etusivu</a> <a href="k1.html">Kissa 1</a> <a href="k2.html">Kissa 2</a> 
+        <a href="em1.html">Tietoja meistä</a> <a href="em2.html">Bootstraptestailut</a> <a href="em3.html">Changelog</a>
+    </div>
+    <h1>HTML -lomakedemo</h1>
+    <table>
+        <caption>Yhteystiedot ja teknologiademot:</caption>
+        <tr>
+            <th>Henkilö</th>
+            <th>Yhteystieto</th>
+            <th>Maa</th>
+            <th>Rowspan</th>
+        </tr>
+        <tr>
+            <td>Hattivatti 1</td>
+            <td>Ilmestyy tarvittaessa</td>
+            <td>Muumilaakso</td>
+            <td rowspan="5" style="font-size: larger; word-wrap: normal; max-width: 6em; writing-mode: vertical-rl;">Rowspanikin<br>toimii</td>
+        </tr>
+        <tr>
+            <td>Fanittamasi henkilö</td>
+            <td>Kokeile puhelimella</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Verneri Pulkkinen</td>
+            <td>Inderesfoorumi</td>
+            <td>Finland</td>
+        </tr>
+        <tr>
+            <td>Jaakko Keso</td>
+            <td>Yle</td>
+            <td>Finland</td>
+        </tr>
+        <tr>
+            <td>Viides henkilö</td>
+            <td colspan="2" style="text-align:center;">Norjalaisen taskussa</td>
+        </tr>
+    </table>
+    <p>
+    <form id="rekisterointi">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label style="color: #000;" for="tekstilaatikko">Tekstilaatikko:</label><br>
+        <textarea name="Tekstilaatikko" id="tekstilaatikko" cols="80" rows="4" placeholder="Ei liian pitkiä saarnoja tähän, kiitos."></textarea>
+        <br>
+        <input type="checkbox" id="uutiskirje" name="uutiskirje" value="uutiskirje">
+        <label style="color: #000;" for="uutiskirje">Haluan uutiskirjeen.</label>
+        <p>
+    Tilauslahjasi:<br>
+
+        <select name="Select subscription gift:">
+            <option value="teddy">Teddybear</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="coffee">Coffee</option>
+        </select>
+        <input formaction="#" id="submitbutton" type="submit" value="Add new user">
+    </form>
+</body>
+</html>

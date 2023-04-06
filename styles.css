@@ -1,6 +1,7 @@
 /* CSS kommentti*/
 body {
-    background-color: rgb(172, 171, 248);
+    background-color: rgb(227, 226, 255);
+    cursor: crosshair;
     }
 /*em3.html taulukolle rajat*/
 table, th, td {
@@ -91,4 +92,3 @@ footer::after {
     background-color: rgb(232, 228, 32);
     border-style: solid;
 }
-
