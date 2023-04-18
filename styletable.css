@@ -31,4 +31,23 @@ label {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }    
+  }
+.formmargin {
+    margin-left: 1em;
+    margin-right: auto;
+}
+/*html -taulukon rowspandemon muotoilu*/
+#table1 {
+    font-size: larger;
+    word-wrap: normal;
+    max-width: 6em;
+    writing-mode: vertical-rl;
+}
+/*Tekstilaatikon ja uutiskirje -napin labelin teksti mustana:*/
+.table1 {
+    color: black;
+}
+/*Colspandemon tekstikeskitys*/
+#table2 {
+    text-align:center;
+}

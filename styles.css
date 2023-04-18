@@ -3,7 +3,7 @@ body {
     background-color: rgb(227, 226, 255);
     cursor: crosshair;
     }
-/*em3.html taulukolle rajat*/
+/*tableform.html taulukolle rajat*/
 table, th, td {
     border: 1px solid;
     border-collapse: collapse;
@@ -91,4 +91,43 @@ footer::after {
     min-height: 1em;
     background-color: rgb(232, 228, 32);
     border-style: solid;
+}
+/*1em margin sitä tarvitseville:*/
+.margintop1em {
+    margin-top: 1em;
+}
+#tietojameistaotsikko {
+    text-align: center;
+}
+/*Tietoja meistä -sivulla olevan placeholderin koko:*/
+#placeholderkoko {
+    width: 200px;
+    height: 200px;
+}
+/*Viiva etusivujen kissalinkkien väliin*/
+#etusivuvaliviiva{
+    border-bottom-style: solid;    
+}
+/*Etusivun kissa1 fonttimääritykset*/
+#kissa1font {
+    font-size: xx-large;
+}
+/*Etusivun kissa2 tekstien tasaus oikealle + fonttikoko*/
+#kissa2font {
+    text-align: right;
+    font-size: xx-large;
+}
+/*Etusivun kissa2 kuvan tasaus oikealle (Ei voi käyttää ylempää, suurentaa kuvan)*/
+#kissa2pic {
+    text-align: right;
+}
+/*Alecian kuvan 1 kokomääritykset*/
+#aleciapic1 {
+    max-height: 30em;
+    max-width: 90%;
+}
+/*Fionan kuvan kokomääritykset:*/
+#fionapic1 {
+    max-height: 30em;
+    max-width: 70%;
 }
