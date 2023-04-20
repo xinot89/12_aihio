@@ -1,0 +1,31 @@
+/*bootstrapräpellyssivujen taustavärejä ja rajoja:*/
+.xs_conf {
+    min-height: 1em;
+    background-color: rgb(225, 115, 90);
+    border-style: solid;
+}
+.sm_conf {
+    min-height: 1em;
+    background-color: aquamarine;
+    border-style: solid;
+}
+.md_conf {
+    min-height: 1em;
+    background-color: rgb(101, 54, 210);
+    border-style: solid;
+}
+.lg_conf {
+    min-height: 1em;
+    background-color: rgb(225, 115, 90);
+    border-style: solid;
+}
+.xl_conf {
+    min-height: 1em;
+    background-color: rgb(29, 241, 36);
+    border-style: solid;
+}
+.xxl_conf {
+    min-height: 1em;
+    background-color: rgb(232, 228, 32);
+    border-style: solid;
+}

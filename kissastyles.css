@@ -1,0 +1,42 @@
+/*Seuraavat käytössä sivuilla Kissa1 ja Kissa2*/
+body {
+    font-size: larger;
+}
+#aleciapic1 {
+    max-height: 30em;
+    max-width: 90%;
+}
+#aleciapic2 {
+    padding-right: 1em;
+}
+#fionapic1 {
+    /*max-height: 30em;*/
+    max-width: 88%;
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+}
+#fionapic2 {
+    padding-right: 1em;
+}
+#fionapic3 {
+    padding-right: 1em;
+}
+.img-fluid {
+    margin: 1em;
+}
+#f1c {
+    text-align: center;
+    overflow: hidden;
+}
+/*Ilman seuraavaa Alecian 2. kuva aiheuttaa horisontaalihissin esiintulon.*/
+#aleciapic2raja {
+    overflow: hidden;
+}
+/*Kissa2 -sivun columnin tekstilevitys*/
+#k2tl {
+    width: auto;
+}
+#k2nooverflow {
+    overflow: hidden;
+}

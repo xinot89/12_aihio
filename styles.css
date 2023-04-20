@@ -1,8 +1,10 @@
-/* CSS kommentti*/
 body {
     background-color: rgb(227, 226, 255);
     cursor: crosshair;
     }
+iframe {
+    width: 500px;
+}
 /*tableform.html taulukolle rajat*/
 table, th, td {
     border: 1px solid;
@@ -42,14 +44,7 @@ Toimii myös karusellikuvan pienennykseen pitäen kuvasuhteen samana.*/
         object-fit: scale-down;
         object-position: 10em;
 }
-footer {
-    background-color: gainsboro;
-    text-align: center;
-}
-footer::after {
-    content: "Toni Pohjanheimo - Verkkosivujen kehittäminen";
-}
-/*Etusivujen thumbnailien koon kohtuullistaminen*/
+/*Etusivujen thumbnailien kokomääritys*/
 .img-thumbnail {
     max-width: 6em;
 }
@@ -57,41 +52,7 @@ footer::after {
 .fillergap {
     min-height: 1em;
 }
-/*6+6 columnien margin vasempaan reunaan*/
-.colmargin {
-    margin-left: 1em;
-}
-/*bootstrapräpellyssivujen taustavärejä ja rajoja:*/
-.xs_conf {
-    min-height: 1em;
-    background-color: rgb(225, 115, 90);
-    border-style: solid;
-}
-.sm_conf {
-    min-height: 1em;
-    background-color: aquamarine;
-    border-style: solid;
-}
-.md_conf {
-    min-height: 1em;
-    background-color: rgb(101, 54, 210);
-    border-style: solid;
-}
-.lg_conf {
-    min-height: 1em;
-    background-color: rgb(225, 115, 90);
-    border-style: solid;
-}
-.xl_conf {
-    min-height: 1em;
-    background-color: rgb(29, 241, 36);
-    border-style: solid;
-}
-.xxl_conf {
-    min-height: 1em;
-    background-color: rgb(232, 228, 32);
-    border-style: solid;
-}
+
 /*1em margin sitä tarvitseville:*/
 .margintop1em {
     margin-top: 1em;
@@ -104,9 +65,9 @@ footer::after {
     width: 200px;
     height: 200px;
 }
-/*Viiva etusivujen kissalinkkien väliin*/
-#etusivuvaliviiva{
-    border-bottom-style: solid;    
+/*Viiva esim divien alareunaan. Käytössä etusivulla + kissasivuilla.*/
+.solidbottomborder {
+    border-bottom-style: solid;
 }
 /*Etusivun kissa1 fonttimääritykset*/
 #kissa1font {
@@ -121,13 +82,10 @@ footer::after {
 #kissa2pic {
     text-align: right;
 }
-/*Alecian kuvan 1 kokomääritykset*/
-#aleciapic1 {
-    max-height: 30em;
-    max-width: 90%;
+footer {
+    background-color: gainsboro;
+    text-align: center;
 }
-/*Fionan kuvan kokomääritykset:*/
-#fionapic1 {
-    max-height: 30em;
-    max-width: 70%;
+footer::after {
+    content: "Toni Pohjanheimo - Verkkosivujen kehittäminen";
 }
